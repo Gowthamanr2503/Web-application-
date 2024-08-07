@@ -1,0 +1,186 @@
+.bg-container{
+    background-image: url("https://res.cloudinary.com/do1jbdg0b/image/upload/v1707050451/7c1e5267-2b47-4ac3-b468-ea9672b8f44a_mkp9wp.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.nav-item:hover{
+    color: white;
+    font-size: medium;
+    background-color: grey;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.bg-box{
+    background-color: white;
+    margin: 25vw;
+    border-radius: 10px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 4px;
+    padding: 10px;
+}
+
+.common-app-heading{
+    font-weight: medium;
+    text-align: center;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image-common-app{
+    height: 8vh;
+    margin: 15px;
+}
+.image-common-app:hover{
+    border-width: 3px solid;
+    height: 10vh;
+    background-color: black;
+    border-color: black;
+    transform: Rotate(20deg) translate(15px);
+}
+
+
+.button-first-page{
+    background :white;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-width: 0px 3px 5px;
+    text-decoration: none;
+    height: 5vh;
+    width: 12vw;
+}
+
+.button-first-page:hover{
+    background: linear-gradient(-50deg, #6157FF , #ee49fd) ;
+    transform: translateX(10px) translateY(-10px) translateZ(-15px);
+    border-color: black;
+    height: 6vh;
+}
+
+
+.bg-container-scnd{
+    background-color: gray;
+    height: auto;
+}
+
+.image-scnd{
+    height: 7vh;
+}
+
+.main-name-app{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.app-home-apps{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+.app-home-apps:hover{
+    background-color: black;
+    transform: scale(10px);
+    color: white;
+}
+.images-size::before{
+    width: 10vw;
+    height: 8vh;
+}
+
+.images-size:hover{
+    height: 10vh;
+    transform: scale(0.80);
+    transition-delay: 20ms;
+}
+
+.box-margin-all{
+    margin-left: 10px;
+}
+
+.app-names-all{
+    padding: 5px;
+}
+
+.about-apps{
+    margin-left: 15px;
+}
+
+.download-content{
+    color: blue;
+    text-align: center;
+    transform: rotate(-6deg );
+}
+
+.download-content:hover{
+    color: white;
+}
+
+.profile-img{
+    height: 30vh;
+    width: 30vw;
+    opacity: 0.4;
+}
+
+.profile-img:hover{
+    border-radius: 50%;
+    transition-duration: 60ms;
+    transform: scaleX(10deg);
+    opacity: 1;
+    -webkit-box-reflect: right 0 linear-gradient(to right , #0000 , #0009);
+    filter: drop-shadow(16px 16px 20px blue);
+}
+
+.headin-profile-name{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profile-login-box{
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    height: 40vh;
+    margin: 40px;
+    margin-bottom: 20px;
+    border-color: cyan;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/do1jbdg0b/image/upload/c_crop,ar_1:1/v1707200247/back_zzucje.jpg');
+}
+
+.box-details{
+    margin-top: 5vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    background-color: transparent;
+    border-color:white;
+}
+
+
+.margin-profile{
+    margin: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-bottom-color: white;
+    background-color: transparent;
+    text-transform: var(-10px);
+}
+.margin-profile:hover{
+    opacity: 2;
+    text-align: center;
+    transform: scaleX(10px);
+    border-color:black;
+    border-style: dashed;
+    background-color: transparent;
+}
